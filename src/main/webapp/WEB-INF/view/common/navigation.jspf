@@ -1,0 +1,10 @@
+<!-- Common navbar for every jsp -->
+
+<nav role="navigation" class="navbar navbar-default">
+	<div class="">
+		<a class="navbar-brand">TelValidator</a>
+	</div>
+	<div class="navbar-collapse">
+		
+	</div>
+</nav>

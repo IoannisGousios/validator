@@ -1,0 +1,40 @@
+<!-- Common header for every jsp -->
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TelValidator</title>
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+	rel="stylesheet">
+	
+	<style>
+p {
+  border-left: 6px solid orange;
+  background-color: lightgrey;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.p1 {
+  border: 3px solid orange;
+  padding: 20px; 
+  width: 1200px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #DADADA;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;  
+}
+</style>
+	
+</head>
+<body>

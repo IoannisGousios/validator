@@ -1,0 +1,26 @@
+<!-- Common footer for every jsp -->
+
+<script src="webjars/jquery/1.9.1/jquery.min.js"></script> 
+	<script	src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: orange;
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+}
+</style>
+
+<div class="footer">
+  <a href="${pageContext.request.contextPath}/">Home</a>
+</div>
+
+</html>
